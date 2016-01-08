@@ -182,7 +182,7 @@ while step < opt.steps do
         local s, a, r, s2, term = agent.valid_s, agent.valid_a, agent.valid_r,
             agent.valid_s2, agent.valid_term
         agent.valid_s, agent.valid_a, agent.valid_r, agent.valid_s2,
-            agent.valid_term = nil, nil, nil, nil, nil, nil, nil
+            agent.valid_term = nil, nil, nil, nil, nil
         local w, dw, g, g2, delta, delta2, deltas, tmp = agent.w, agent.dw,
             agent.g, agent.g2, agent.delta, agent.delta2, agent.deltas, agent.tmp
         agent.w, agent.dw, agent.g, agent.g2, agent.delta, agent.delta2,
